@@ -1,0 +1,145 @@
+body {
+    font-family: sans-serif;
+}
+
+.navbar-brand img {
+    height: 90px;
+    width: 270px;
+}
+
+.bg-dark {
+    background-color: #140009;
+}
+
+.bg-black {
+    background-color: #140009;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-weight: 800;
+    font-size: 14px;
+    margin-left: 2px;
+    padding: 10px 8px;
+    font-family: sans-serif;
+}
+
+.navbar-right {
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 35px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    background-color: #ff277e;
+    padding: 10px 8px;
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    background-color: #ff277e;
+    padding: 10px 8px;
+    color: white;
+}
+
+.navbar-right .fab {
+    color: #93d83d;
+    font-size: 25px;
+    margin-left: -20px;
+}
+
+.navbar-nav .nav-item .nav-link .smi:hover {
+    background-color: black;
+}
+
+
+/* /navbar */
+
+
+/* banner */
+
+.banner img {
+    height: auto;
+    width: 100%;
+}
+
+
+/* /banner */
+
+
+/* play section starts */
+
+.play-section {
+    background-image: url(../images/section-4.png);
+    background-size: cover;
+    height: 300px;
+    box-shadow: 0 0 0.4px 0.2px black inset;
+}
+
+.play-btn a,
+.whitepaper-btn a {
+    text-decoration: none;
+}
+
+.play-btn p,
+.whitepaper-btn p {
+    border: 3px solid #93d83d;
+    border-radius: 20px;
+}
+
+.play-btn p {
+    color: #fa3086;
+    font-size: 28px;
+    letter-spacing: 1.5px;
+    font-weight: lighter;
+}
+
+.whitepaper-btn p {
+    color: white;
+    font-size: 38px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    padding: 12px 20px;
+}
+
+
+/* play section ends */
+
+
+/* about us */
+
+.about-us img {
+    height: auto;
+    width: 100%;
+}
+
+
+/* about us ends */
+
+.footer {
+    background-image: url(../images/footer.png);
+    background-size: cover;
+    box-shadow: 0 0 0.4px 0.2px black inset;
+}
+
+#footer {
+    margin-bottom: 250px;
+}
+
+.mob-res {
+    width: 100%;
+}
+
+
+/* footer ends */
+
+
+/* mobile devices */
+
+@media (max-width: 765px) {
+    .mob-res {
+        width: 300px;
+        height: 80px;
+    }
+}
